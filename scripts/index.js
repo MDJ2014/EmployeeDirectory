@@ -4,7 +4,7 @@ $(document).ready(function() {
    var currentEmp = 0;
 //ajax method to retrieve API file
    $.ajax({
-     url: 'https://randomuser.me/api/?results=60',
+     url: 'https://randomuser.me/api/?results=12',
      dataType: 'json',
      success: function(data) {
 //store data in global var
